@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical">
+
+	<Button 
+	    android:id="@+id/problemBtn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="问题 demo"/>
+	<Button 
+	    android:id="@+id/solution1Btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="方案1 demo"/>
+	<Button 
+	    android:id="@+id/solution2Btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="方案2 demo"/>
+	<Button 
+	    android:id="@+id/solution3Btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="方案3 demo"/>
+</LinearLayout>
